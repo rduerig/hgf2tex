@@ -1,7 +1,7 @@
 hgf2tex
 =======
 
-Copyright 2013 Ralph Dürig (ralphduerig@googlemail.com)
+Copyright (c) 2013 Ralph Dürig (ralphduerig@googlemail.com)
 
 Many many thanky goes to Marcin Ciura for creating havannah.sty!
 It's included it in this project because it's used in the latex code hgf2tex throws out.
