@@ -27,7 +27,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 def parse_moves(game)
 	if(game)
-		moves = game.scan(/;[B|W]\[(.+?)\]/).flatten.compact.join(',')
+		moves = game.scan(/;[B|W]\[(.+?)\]/).flatten.compact.join(',').downcase
 		return moves
 	else p 'no game given'
 		return nil
