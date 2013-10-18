@@ -17,7 +17,7 @@ Long Explanation:
 -----------------
 
 This simple ruby script parses hgf files or rather Havannah game files.
-Such files can be found on http://littlegolem.net for instance and contain all relecant information to reconstruct or to typeset a game.
+Such files can be found on http://littlegolem.net for instance and contain all relevant information to reconstruct or to typeset a game.
 Therefore it parses the board size and the list of moves that where made and prints a corresponding latex snippet to the console.
 That's not very comfortable, don't ask, I'm aware of it.
 Note that this script is ratherly intended for adapting it to your individual needs instead of using it blindly.
